@@ -375,7 +375,11 @@ input:focus {
         max-width: 340px;
     }
 }
-
+@media(max-width:768px){
+    .box5{
+        flex-direction: column;
+    }
+}
 @media(min-width:992px) {
     .Logo {
         display: flex;
